@@ -23,7 +23,7 @@ function sym() {
     }
 
     arraylist = arraylist.flat();
-    return arraylist.sort();
+    return arraylist;
 }
 
 //Find Intersection of two arrays and then subtract intersection from merged array(array1,array2) 
