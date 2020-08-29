@@ -26,6 +26,7 @@ function sym() {
     return arraylist.sort();
 }
 
+//Find Intersection of two arrays and then subtract intersection from merged array(array1,array2) 
 
 function diff(array1, array2) {
     var arr = [];
