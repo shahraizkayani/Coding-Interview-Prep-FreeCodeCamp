@@ -3,9 +3,10 @@
 
 function bubbleSort(array) {
     var count = 0;
+    var counter = 0;
     while (count != 1) {
         let k = 0;
-        for (let j = 0; j < array.length - 1; j++) {
+        for (let j = 0; j < array.length -counter- 1; j++) {
             if (array[j] > array[j + 1]) {
                 let temp = array[j + 1];
                 array[j + 1] = array[j];
@@ -14,9 +15,10 @@ function bubbleSort(array) {
             }
 
         }
-        if (k == 0) {
+        if (k == 0 || counter ==array.length-1) {
             count = 1;
         }
+        counter++;
     }
     return array;
 }
