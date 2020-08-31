@@ -26,7 +26,7 @@ function Queue() {
 
     this.dequeue = function() {
         let element = this.front();
-      collection.unshift();
+      collection.shift();
         return element;
     };
 
