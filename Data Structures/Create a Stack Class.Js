@@ -36,7 +36,7 @@ function Stack() {
 
     this.isEmpty = function() {
 
-        return true;
+        return collection.length === 0;
 
     };
     // Only change code above this line
