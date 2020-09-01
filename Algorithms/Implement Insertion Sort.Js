@@ -23,6 +23,10 @@ function insertionSort(array) {
 
 
             }
+            else{
+                break;
+                
+            }
 
         }
 
